@@ -1,0 +1,40 @@
+html,
+body,
+div{
+  font: inherit;
+  font-size: 100%;
+  margin: 0 ;
+  padding: 0;
+  border: 0;
+  -webkit-user-select: none; /* For Safari 3+ and Chrome */
+  -moz-user-select: none;    /* For Firefox */
+  -ms-user-select: none;     /* For Internet Explorer/Edge */
+  user-select: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color:var( --color-like);;
+  border-radius: 6px;
+  width: 8px;
+
+}
+
+::-webkit-scrollbar-track
+{
+
+  background-color: var( --color-card);
+}
+
+::-webkit-scrollbar
+{
+  width: 8px;
+}
+body {
+  font-family: cartoon;
+  color:var( --text-color);
+}
+
+@font-face{
+  font-family: cartoon;
+  src: url('../styles/圆体.ttf')
+}
